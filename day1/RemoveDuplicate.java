@@ -7,7 +7,7 @@ public class RemoveDuplicate {
         
         //Split text into words
         String[] words = text.split(" ");
-        System.out.print(words.toString());
+        System.out.print(words);
         //Loop to find duplicates
         for(int i = 0; i < words.length; i++) {
         	int count = 1; // reset count for each word
